@@ -1,5 +1,9 @@
 # cosmeticos_bd
 
+![modelo de banco de dados](00_imagem/BD_00_DER.png)
+
+1. Execute o [script de criação do banco](01_scripts/01_criacao.sql)
+
 repositório é uma pasta que contém uma pasta chamada .git que faz o gerenciamento dos arquivos.
 
 - git init -> criar um repositorio
