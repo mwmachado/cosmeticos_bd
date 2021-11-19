@@ -4,6 +4,24 @@
 
 1. Execute o [script de criação do banco](01_scripts/01_criacao.sql)
 
+Relatórios
+---
+
+1. Quais são os produtos vendidos?
+
+```sql
+SELECT DISTINCT
+    v.produto produto
+FROM Cliente c
+RIGHT JOIN Venda v
+	ON v.id_cliente = c.id_cliente
+LEFT JOIN Revendedor r
+	on r.id_revendedor = v.id_revendedor
+;
+```
+
+----
+
 repositório é uma pasta que contém uma pasta chamada .git que faz o gerenciamento dos arquivos.
 
 - git init -> criar um repositorio
